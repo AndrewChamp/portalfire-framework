@@ -1,5 +1,5 @@
-PortalFire Framework ![Image](https://github.com/AndrewChamp/portalfire-framework/blob/master/_ignore/portalfire-logo.png?raw=true)
-====================
+# ![Image](https://github.com/AndrewChamp/portalfire-framework/blob/master/_ignore/portalfire-logo.png?raw=true) PortalFire Framework
+
 
 A single, core framework for developing multiple sites.  No need to rewrite the same code for every site.  Fast and easy way to setup and run a site.
 
