@@ -21,14 +21,18 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 
 ###Database
 - Import the portalfire.sql file provided
-	* This will create the tables 'configuration', 'content', & 'error'
-		* 'configuration' -> Some framework options
-		* 'content' -> Pages that will make up the site/app
-		* 'error' -> Contains status codes for document / server errors
+	- This will create the tables 'configuration', 'content', & 'error'
+		- 'configuration' -> Some framework options
+		- 'content' -> Pages that will make up the site/app
+		- 'error' -> Contains status codes for document / server errors
 
 ###Files
 - Upload the 'portalfire' directory above public_html
-	* Example:  _'/home/user/portalfire/'_
+	- Example:  _'/home/user/portalfire/'_
 
-- Upload the 'domain.com' directory.  _Be sure to name it to the actual domain using it_
-	* Open 'common/config.php' file and edit to fit your needs.  Also add your Database credentials 
+- Upload the 'domain.com' directory.  (Be sure to name it to the actual domain using it)
+	- Open 'common/config.php' file and edit to fit your needs.  Also add your Database credentials
+	
+###Additional Functionality
+- Open _'portalfire/core/class.debug.php'_ and add your I.P.'s you'll be using to develop the site
+	- By wrapping your code with _if($debug->dev)_ only you and the IP's you allow will debug information
