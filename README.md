@@ -38,7 +38,8 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 	
 ###Additional Functionality
 
-####Debugging **class.debug.php**
+####Debugging 
+_class.debug.php_
 - Open _'portalfire/core/class.debug.php'_ and add your I.P.'s you'll be using to develop the site
 	- By wrapping your code with _if($debug->dev)_ only you and the IP's you allow will see debug information
 
