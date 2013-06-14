@@ -14,3 +14,4 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 - Deploy sites quicker
 - Easy to customize
 - Developer mode
+- Custom Error Handlers
