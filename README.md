@@ -8,9 +8,9 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 
 ##Benefits
 
-- No redundant coding.
-- Reuse open connection to database.
-- Optimized for page loading.
-- Deploy sites quicker.
-- Easy to customize.
-- Developer mode.
+- No redundant coding
+- Reuse the same open connection to the database
+- Optimized for page loading
+- Deploy sites quicker
+- Easy to customize
+- Developer mode
