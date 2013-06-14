@@ -16,7 +16,7 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 - Developer mode for debugging
 - Custom Error Handlers
 
----------------
+
 
 ##Setup
 
@@ -34,7 +34,7 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 - Upload the 'domain.com' directory.  (Be sure to name it to the actual domain using it)
 	- Open 'common/config.php' file and edit to fit your needs.  Also add your Database credentials
 
----------------
+
 	
 ##Functionality
 
