@@ -8,7 +8,7 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 
 ##Benefits
 
-- No redundant coding
+- Less redundant coding
 - Reuse the same open connection to the database
 - Optimized for page loading
 - Deploy sites quicker
