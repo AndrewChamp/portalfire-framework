@@ -28,4 +28,4 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 
 ###Files
 - Upload the 'portalfire' directory above public_html.
-	* Example: '/home/user/portalfire/'  (**NOT** '/home/user/public_html/portalfire')
+	* **Example** : '/home/user/portalfire/'  (**NOT** '/home/user/public_html/portalfire')
