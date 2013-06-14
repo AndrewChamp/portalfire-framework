@@ -22,9 +22,9 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 ###Database
 - Import the portalfire.sql file provided
 	* This will create the tables 'configuration', 'content', & 'error'
-		* 'configuration' => Some framework options
-		* 'content' => Pages that will make up the site/app
-		* 'error' => Contains status codes for document / server errors
+		* 'configuration' -> Some framework options
+		* 'content' -> Pages that will make up the site/app
+		* 'error' -> Contains status codes for document / server errors
 
 ###Files
 - Upload the 'portalfire' directory above public_html.
