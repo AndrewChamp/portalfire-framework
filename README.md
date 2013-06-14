@@ -13,5 +13,5 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 - Optimized for page loading
 - Deploy sites quicker
 - Easy to customize
-- Developer mode
+- Developer mode for debugging
 - Custom Error Handlers
