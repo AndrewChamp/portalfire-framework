@@ -49,10 +49,10 @@
 		private static $instance;
 	
 		public $development = array(
-			'Interlink'		=> '207.32.225.*',
-			'WUBU FM'		=> '63.131.11.31',
-			'Home'			=> '50.127.119.140',
-			'Home'			=> '50.121.16.65'
+			'Home1'		=> '10.10.10.*',  // You can use an asterisk to allow IP blocks 
+			'Home2'		=> '10.10.10.10',
+			'Work1'		=> '10.10.10.10',
+			'Work2'		=> '10.10.10.10'
 		);
 		public $ip;
 		public $dev = false;
