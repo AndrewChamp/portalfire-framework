@@ -27,5 +27,8 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 		* 'error' -> Contains status codes for document / server errors
 
 ###Files
-- Upload the 'portalfire' directory above public_html.
+- Upload the 'portalfire' directory above public_html
 	* Example:  _'/home/user/portalfire/'_
+
+- Upload the 'domain.com' directory.  _Be sure to name it to the actual domain using it_
+	* Open 'common/config.php' file and edit to fit your needs.  Also add your Database credentials 
