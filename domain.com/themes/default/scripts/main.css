@@ -1,0 +1,47 @@
+
+/*----------GLOBAL RESETS----------*/
+*{padding:0; margin:0; outline:0; border:0;}
+
+/*----------HTML5 HELPERS----------*/
+header, nav, section, article, aside, footer, hgroup{display:block;}
+
+/*----------GLOBAL DEFAULTS----------*/
+html{min-height:100%; height:auto; overflow-y:scroll;}
+body{}
+
+a{text-decoration:none; color:#FF00D8;}
+a:hover{color:#FF68E3;}
+
+::selection{background:#FF00D8; color:#FFF;}
+::-moz-selection{background:#FF00D8; color:#FFF;}
+
+p{margin:0 0 10px 0;}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+.left{float:left;}
+.right{float:right;}
+.center{text-align:center;}
+.middle{clear:both; display:block; margin-left:auto; margin-right:auto;}
+img{max-width:99%;}
+img.left, img.right{box-shadow:5px 5px 10px #000;}
+img.left{margin:0 20px 10px 0;}
+img.right{margin:0 0 10px 20px;}
+.clear{display:block; clear:both; overflow:hidden;}
+textarea{resize:vertical;}
+iframe{clear:both; margin:60px auto; display:block;}
+
+.twenty{width:18%;}
+.thirty{width:28%;}
+.fourty{width:38%;}
+.fifty{width:48%;}
+.sixty{width:58%;}
+.seventy{width:68%;}
+.eighty{width:78%;}
+
+#container{width:960px; margin:0 auto; z-index:50; position:relative;}

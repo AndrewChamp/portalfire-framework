@@ -1,0 +1,82 @@
+#######################################################################
+#	CoreWork Framework
+#######################################################################
+RewriteEngine on
+RewriteBase /
+
+
+#######################################################################
+#	Deprecated Pages w/ Redirects to the new url.
+#	Put all your rewrites/redirects here.
+#######################################################################
+#RewriteCond %{QUERY_STRING} ^p=brand-service$ [NC]
+#RewriteRule (.*) /service? [R=301,L]
+
+
+#######################################################################
+#	Framework Environment
+#######################################################################
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1&%{QUERY_STRING}
+
+
+#######################################################################
+#	Error Handlers
+#######################################################################
+ErrorDocument 401 /error/401/
+ErrorDocument 403 /error/403/
+ErrorDocument 404 /error/404/
+ErrorDocument 405 /error/405/
+ErrorDocument 408 /error/408/
+ErrorDocument 500 /error/500/
+ErrorDocument 502 /error/502/
+ErrorDocument 504 /error/504/
+
+
+#######################################################################
+#	Server Security
+#######################################################################
+Options -Indexes
+ServerSignature Off
+# Disables PHP Easter Eggs
+RewriteCond %{QUERY_STRING} \=PHP[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12} [NC]
+RewriteRule .* - [F]
+
+
+#######################################################################
+#	Character Set
+#######################################################################
+AddDefaultCharset UTF-8
+AddCharset utf-8 .css .js
+
+
+#######################################################################
+#	Caching		(3600 = 1 hour  |  86400 = 1 day  |  2592000 = 30 days)
+#######################################################################
+ExpiresActive On
+ExpiresDefault "access plus 1 seconds"
+ExpiresByType text/html "access plus 1 seconds"
+ExpiresByType image/x-icon "access plus 2592000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType text/css "access plus 2592000 seconds"
+ExpiresByType text/javascript "access plus 2592000 seconds"
+ExpiresByType application/x-javascript "access plus 2592000 seconds"
+
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+
+
+
+
+
