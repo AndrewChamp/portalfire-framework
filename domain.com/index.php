@@ -34,12 +34,12 @@ ob_start();
 	
 	spl_autoload_register(function($class){
 		$directorys = array(PATH.VERSION.MODULES, INSTALL.THEME.'modules/');
-        foreach($directorys as $directory):
-            if(file_exists($directory.'class.'.$class.'.php')):
-                require_once($directory.'class.'.$class.'.php');
+        	foreach($directorys as $directory):
+            		if(file_exists($directory.'class.'.$class.'.php')):
+                		require_once($directory.'class.'.$class.'.php');
 				return;
-            endif;
-        endforeach;
+            		endif;
+        	endforeach;
 	});
 
 
