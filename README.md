@@ -41,11 +41,11 @@ I just don't like the bloat, and just wanted a framework that would handle as ma
 ###Debugging 
 _class.debug.php_
 - Open _'portalfire/core/1.0/class.debug.php'_ and add your I.P.'s you'll be using to develop the site
-	- By wrapping your code with _if($debug->dev)_ only you and the IP's you allow will see debug information
+	- By wrapping your code with _if($debug->dev)_ only the IP's you allow will see debug information
 
 ```php
 // Example
-if($debug->core)
+if($debug->dev)
 	print 'Those damn clients will not see this message.';
 ```
 
